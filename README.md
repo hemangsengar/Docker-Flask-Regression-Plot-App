@@ -38,11 +38,13 @@ This project is a Flask web application that generates a regression plot using d
   cd Docker-Flask-Regression-Plot-App
 ```
 
-
-```Build the Docker Image
+### Build the Docker Image
+```
 docker build -t flask-regression-plot .
 ```
-```Run the Docker Container
+
+### Run the Docker Container
+```
 docker run -p 5000:5000 flask-regression-plot
 ```
 
